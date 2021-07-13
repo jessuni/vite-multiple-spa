@@ -1,0 +1,30 @@
+{
+  "name": "vite-multiple-spa",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "",
+  "author": "Jessie Ji",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessuni/vite-multiple-spa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jessuni/vite-multiple-spa/issues"
+  },
+  "homepage": "https://github.com/jessuni/vite-multiple-spa#readme",
+  "dependencies": {
+    "vite": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.1"
+  }
+}
