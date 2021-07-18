@@ -11,15 +11,13 @@ export interface IncomingMessage extends Connect.IncomingMessage {
 
 function transformHtml(
   options: Options,
-  server: ViteDevServer
+  server: ViteDevServer,
   ): Connect.NextHandleFunction {
   return async function middleware(req: IncomingMessage, res, next) {
     const url = req.url
     if (req.headers['sec-fetch-dest'] !== 'document') {
       return next()
     }
-
-
 
     const file = Object.keys(options.input).filter(k => {
       const pattern = new RegExp('^' + k)
