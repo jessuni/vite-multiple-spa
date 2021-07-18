@@ -41,6 +41,6 @@ defineConfig({
 })
 ```
 
-...where the keys of `input` should be the a path prefix that could determine which html file to serve.
+...where the keys of `input` should be the a route path prefix that could determine which html file to serve.
 
 
